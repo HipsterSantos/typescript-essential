@@ -1,0 +1,18 @@
+intalling
+
+lite-server
+cors
+express
+mongo
+mongoose
+mysql
+sqlite
+pm2
+jsonwebtoken
+sequelize
+socket
+lodash
+morgan
+joi
+
+//dependencies for mailer,messaging

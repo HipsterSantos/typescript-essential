@@ -1,0 +1,12 @@
+( ! ) this tell to typescript ,to never yield null 
+for instance:
+let c:number !;
+
+(as) is used to make boxing and unboxing or type casting
+for instance:
+let c:number as (boolean)
+
+non-javascript features 
+Interfaces ,generics
+
+1:40:02
