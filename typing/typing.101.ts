@@ -13,3 +13,18 @@
 -Type Guards 
 -Discriminarted Unions
 -Destructuring && Spreading 
+
+
+#Starting with const and variables ;
+Don't bother about the phrases unquoted !
+
+// Conststants are variables that follow the scope rule of the let  keyword, but tha cannot be reassigner. 
+// When you declare a variable with  eh const keyword.
+
+Example 1.1 (Contants and type annotations)
+const name  = 'noname';
+If you try reassign this variable the outcome will be the following: 
+name = 'Jessica'
+// Error! Cannot assign to name because it is a constant
+const digits = [1,3,5];//the way we're cah
+digits.push(4,5,6)
