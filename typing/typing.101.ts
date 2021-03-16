@@ -106,3 +106,23 @@ type Status = 'Done'|'IN_PROGRESS'|'STOPPED';
 let projectStatus:Status = 'Done';
 let fibo = 1|2|3|5|8|13;
 
+//Insertion types 
+/***
+Unlike union typing Intersection types combine seveal different types into a single supertype that includes 
+the member from all participating types.
+*/
+
+interface Skier{
+    slide(): void;
+}
+interface Shooter{
+    shoot(): void;
+}
+type Both = Skier & Shooter;
+let which: Both;
+which.shoot();
+which.slide();
+
+// now which variable holds both shoot and slide function 
+
+
