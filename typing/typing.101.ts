@@ -98,3 +98,11 @@ let union: never | unknown|void |undefined ;
 let func: ()=>string| string|number;
 let obj:{name:string,id:number} | {id:number|string}[]
 let arr:Array<string>|[string|number]
+let err: Error | Promise<string|boolean|number>
+
+//Using literal types instead enumeration ;
+
+type Status = 'Done'|'IN_PROGRESS'|'STOPPED';
+let projectStatus:Status = 'Done';
+let fibo = 1|2|3|5|8|13;
+
