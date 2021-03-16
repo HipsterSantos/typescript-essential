@@ -31,8 +31,13 @@ digits.push(4,5,6)
 
 //typing annotations: 
 //primitive type annotation 
-let syHello:(name:string|any) => string|any //function  annotation with parameter and return type annotation
+let sayHello:(name:string|any) => string|any //function  annotation with parameter and return type annotation
+sayHello = function(name){
+    return name;
+}//implementation
+
 let person:{ name:string,color:string,age:number}//object type annotation;
+person = {name:'Jessica',color:'brown',age:23}//implementation
 interface Person{
     name:string;
     age:number;
@@ -41,3 +46,10 @@ interface Person{
 type PersonT = {
     person:Person
 }
+
+
+let samey:Person | PersonT = {
+    ...person,
+    married:false
+}
+
