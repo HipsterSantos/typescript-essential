@@ -28,3 +28,16 @@ name = 'Jessica'
 // Error! Cannot assign to name because it is a constant
 const digits = [1,3,5];//the way we're cah
 digits.push(4,5,6)
+
+//typing annotations: 
+//primitive type annotation 
+let syHello:(name:string|any) => string|any //function  annotation with parameter and return type annotation
+let person:{ name:string,color:string,age:number}//object type annotation;
+interface Person{
+    name:string;
+    age:number;
+    married:boolean;
+}// interface annotation 
+type PersonT = {
+    person:Person
+}
