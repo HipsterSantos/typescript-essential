@@ -46,10 +46,50 @@ interface Person{
 type PersonT = {
     person:Person
 }
-
-
 let samey:Person | PersonT = {
     ...person,
     married:false
 }
+
+/**
+    Primitive types 
+
+        -strings 
+        -boolean 
+        -number
+        -symbol
+
+        special types 
+        -undefined 
+        -null 
+        -void
+        -never
+        -unknown
+    #Object and dynamic types
+
+*/
+
+// Enumerations 
+
+ enum Vehicle{
+     pedal,
+     motor,
+     car,
+     bus
+ }
+ enum status{
+     PENDING='PENDING',
+     DONE='DONE',
+     STOPPED= 'STOPPED'
+ }
+
+ const enum genre{
+     male =1,
+     female=2
+ }
+//the above declaration was how we can declare enumerations 
+
+
+//
+
 
