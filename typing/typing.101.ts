@@ -90,6 +90,11 @@ let samey:Person | PersonT = {
 //the above declaration was how we can declare enumerations 
 
 
-//
-
-
+//Union types 
+/**
+A union type widens the allowable values by specifying that the value can be of more than a single type. 
+*/
+let union: never | unknown|void |undefined ;
+let func: ()=>string| string|number;
+let obj:{name:string,id:number} | {id:number|string}[]
+let arr:Array<string>|[string|number]
