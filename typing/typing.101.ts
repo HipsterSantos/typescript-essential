@@ -144,3 +144,11 @@ http.push({
   username:'jessica',
   email:'nonone@one.co'
 })
+
+//Typles types
+
+// A tuple uses and array, and specifies the type of elements based on their position .
+
+ let asset:[string, number,boolean];
+
+ asset = ['',3232,true]
