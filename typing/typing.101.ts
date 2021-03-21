@@ -152,3 +152,7 @@ http.push({
  let asset:[string, number,boolean];
 
  asset = ['',3232,true]
+
+ //Typescript Dictionary
+
+ 
