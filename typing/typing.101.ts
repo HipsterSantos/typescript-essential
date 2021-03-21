@@ -125,3 +125,17 @@ which.slide();
 
 // now the variable holds both shoot and slide function
 //[p40//
+
+
+//Working with arrays
+typescript syntax:
+let users:Array<type>
+let girls:type[]
+i.g:
+interface HttpResponse{
+  token:string;
+  email:string;
+  username:string;
+}
+let http:HttpResponse[]
+let https:Array<HttpResponse>;
