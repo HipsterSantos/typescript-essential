@@ -139,3 +139,8 @@ interface HttpResponse{
 }
 let http:HttpResponse[]
 let https:Array<HttpResponse>;
+http.push({
+  token:'4903ffcajt4akkefla333',
+  username:'jessica',
+  email:'nonone@one.co'
+})
