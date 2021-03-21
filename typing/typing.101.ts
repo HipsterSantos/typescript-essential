@@ -124,5 +124,6 @@ which.shoot();
 which.slide();
 
 // now which variable holds both shoot and slide function 
+//[p40//
 
 
