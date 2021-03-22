@@ -155,4 +155,23 @@ http.push({
 
  //Typescript Dictionary
 
- 
+ Dictionary in typescript uses and index type ,see below the syntax
+
+ interface days{
+   days:'Sunday' | 'Monday' | 'Tuesday';
+ }
+ interface dayOfWeek{
+   [index:number]:days
+ }
+ let dayss:dayOfWeek;
+ dayss[1] = {days:''}
+
+ interface Cephalopod{
+   hasInk: boolean;
+   arms: number;
+   tentacle: numbe;
+ }
+
+ interface CephalopodDictionary{
+    [index:string]: Cephalopod;
+ }
